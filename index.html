@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Markdown-editor</title>
+  <link rel="stylesheet" href="https://cdn.bootcss.com/codemirror/5.33.0/codemirror.css">
+  <link rel="stylesheet" href="https://cdn.bootcss.com/codemirror/5.33.0/theme/material.css">
+  <link rel="stylesheet" href="./src/style/style.scss">
+  <link rel="stylesheet" href="./src/assets/github-light.css">
+  <link href="https://cdn.bootcss.com/highlight.js/9.12.0/styles/default.min.css" rel="stylesheet">
+  <link href="https://cdn.bootcss.com/highlight.js/9.12.0/styles/atom-one-light.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="page">
+    <div class="part">
+      <textarea id="editor"></textarea>
+    </div>
+    <div class="part">
+      <div id="previewer"></div>
+    </div>
+  </div>
+
+  <script src="https://cdn.bootcss.com/codemirror/5.33.0/codemirror.js"></script>
+  <script src="https://cdn.bootcss.com/codemirror/5.33.0/addon/selection/active-line.js"></script>
+  <script src="https://cdn.bootcss.com/codemirror/5.33.0/mode/markdown/markdown.js"></script>
+  <script src="https://cdn.bootcss.com/markdown-it/8.4.0/markdown-it.js"></script>
+  <script src="https://cdn.bootcss.com/markdown-it-footnote/3.0.1/markdown-it-footnote.js"></script>
+  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/languages/javascript.min.js"></script>
+  <script src="./src/main.js"></script>
+</body>
+</html>>

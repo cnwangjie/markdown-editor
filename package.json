@@ -1,0 +1,17 @@
+{
+  "name": "markdown-editor",
+  "version": "0.0.1",
+  "description": "A nice markdown editor",
+  "main": "index.html",
+  "repository": "https://github.com/cnwangjie/markdown-editor.git",
+  "author": "cnwangjie",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "node-less": "^1.0.0",
+    "node-sass": "^4.7.2"
+  },
+  "devDependencies": {
+    "less": "^2.7.3"
+  }
+}
